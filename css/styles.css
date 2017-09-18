@@ -6,7 +6,7 @@
 
 }
 
-.col-md-3{
+.min{
     text-align: center;
     margin-top: 0px;
     padding: 0px;
@@ -47,9 +47,142 @@
   padding: 42.5px
 }
 
+.col-md-6 {
+  margin-top: 80px;
+}
+
 .ff1 {
-  text-align: right;
-  border-style: solid;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  margin: 10px;
+  margin-right: 0px;
+  box-shadow: rgba(83, 42, 86, 0.28) 0px 1px 10px;
+    border-radius: 0px;
+}
+
+.ff{
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.ftext {
+  padding-left: 90px;
+}
+
+.dd1 {
+  padding: 20px;
+  margin: 10px;
+    margin-left: 0px;
+  box-shadow: rgba(83, 42, 86, 0.28) 0px 1px 10px;
+    border-radius: 0px;
+}
+
+.dd{
+  margin-left: 0px;
   padding-left: 0px;
+}
+
+.drinks {
+  margin: 0px;
+}
+
+#d2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dtext {
+  text-align: right;
+  padding-right: 100px;
+}
+
+.scroll {
+  background-image: url(../images/backgrounds/foodsBg.jpg);
+}
+
+.pcol {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: lightgray;
+  border: 2px;
+  border-color: red;
+  border-width: thin;
+  border-style: inset;
+}
+
+.panel {
+  border: 0px;
+  border-radius: 0px;
+  margin-top: 100px;
+  margin-right: 10px;
+  margin-bottom: 100px;
+  margin-left: 10px
+}
+
+.pb1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.pb2 {
+  text-align: center;
+}
+
+.piccol {
+  margin-left: 0px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+#chickenburger {
+  margin: 0px;
+  padding-right: 0px;
+}
+
+#beefburger {
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#chickenpizza {
+  margin: 0px;
+  padding-left: 0px;
+}
+
+.happycustomers {
+  background-color:;
+  padding-top: 25px;
+  padding-right: 20px;
+  margin-top: 95px;
+  margin-right: 2200px;
+  margin-bottom: 100px;
+  margin-left: 130px;
+  box-shadow: rgba(83, 42, 86, 0.28) 1px 1px 15px 0.5px;
+}
+
+.hp1 {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: blue;
+}
+
+.hp2 {
+  text-align: center;
+  margin: 0px;
+  padding-top: 0px;
+  border: 0px;
+  border-left: 1px;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  background-color: red;
 
 }
