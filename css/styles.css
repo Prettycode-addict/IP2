@@ -108,7 +108,7 @@
   text-align: center;
   background-color: lightgray;
   border: 2px;
-  border-color: red;
+  border-color: lightgray;
   border-width: thin;
   border-style: inset;
 }
@@ -171,7 +171,6 @@
   text-align: center;
   margin: 0px;
   padding: 0px;
-  background-color: blue;
 }
 
 .hp2 {
@@ -183,6 +182,20 @@
   border-left-style: solid;
   border-width: thin;
   border-color: lightgray;
-  background-color: red;
 
 }
+
+.newsletter {
+  background-image: url(../images/backgrounds/subscribe.jpg);
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 120px;
+  }
+
+  footer{
+    background-color: #F15A29;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: white;
+  }
