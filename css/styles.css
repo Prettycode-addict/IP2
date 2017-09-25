@@ -1,7 +1,25 @@
-.header {
+
+
+.head {
   background-image: url(../images/backgrounds/landing.jpg);
+}
+
+.fa-bars {
+  color: white;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.header {
   text-align: center;
-  padding: 120px;
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 60px;
   border: 0px;
 
 }
@@ -127,9 +145,9 @@
   margin: 0px;
 }
 
-.pb2 {
+/*.pb2 {
   text-align: center;
-}
+}*/
 
 .piccol {
   margin-left: 0px;
@@ -137,12 +155,14 @@
   padding-bottom: 20px;
   padding-left: 0px;
   padding-right: 0px;
+  text-align: center;
 
 }
 
 #chickenburger {
   margin: 0px;
   padding-right: 0px;
+  padding-left: 5px;
 }
 
 #beefburger {
@@ -154,6 +174,17 @@
 #chickenpizza {
   margin: 0px;
   padding-left: 0px;
+  padding-right: 5px;
+}
+
+.fa-chevron-left {
+  padding-right: 15px;
+  color: #F15A29;
+}
+
+.fa-chevron-right {
+  padding-left: 15px;
+  color: #F15A29;
 }
 
 .happycustomers {
@@ -167,22 +198,26 @@
   box-shadow: rgba(83, 42, 86, 0.28) 1px 1px 15px 0.5px;
 }
 
-.hp1 {
+.hp2 {
   text-align: center;
   margin: 0px;
   padding: 0px;
 }
 
-.hp2 {
+.hp1 {
   text-align: center;
   margin: 0px;
   padding-top: 0px;
+  margin-bottom: 20px;
   border: 0px;
-  border-left: 1px;
-  border-left-style: solid;
+  border-right: 1px;
+  border-right-style: solid;
   border-width: thin;
   border-color: lightgray;
+}
 
+.guys {
+  padding-right: 15px;
 }
 
 .newsletter {
@@ -190,6 +225,10 @@
   text-align: center;
   padding-top: 115px;
   padding-bottom: 120px;
+  }
+
+  body {
+    font-family: 'PT Serif', serif;
   }
 
   footer{

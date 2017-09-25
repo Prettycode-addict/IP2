@@ -1,21 +1,23 @@
 <!DOCTYPE html>
    <html>
      <head>
-       <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+       <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
        <link href="css/styles.css" rel="stylesheet" type="text/css">
+       <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i" rel="stylesheet">
        <script src="js/jquery-3.2.1.js"></script>
        <script src="js/scripts.js"></script>
        <title>Anita's Kitchen</title>
      </head>
      <body>
-
+       <div class="head">
+          <i class="fa fa-bars fa-5x" aria-hidden="true"></i>
             <div class="header">
-
               <img src="images/logoBig.png" alt="Cake on a plate">
               <p>We Provide The Best Food</p>
               <p>At The Right Price</p>
             </div>
+        </div>
         <div class="row">
           <div class="col-md-3 min">
             <p id="hh">Happy Hour</p>
@@ -114,7 +116,7 @@
             </div>
             <div class="pb2 panel-body">
               <div class=" piccol col-md-4">
-                <span class="fa fa-chevron-left"></span> <img id="chickenburger" src="images/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i> <img id="chickenburger" src="images/fastfood/chickenBurger.jpg" alt="Chicken Burger">
                 <p>Chicken Burger</p>
               </div>
 
@@ -124,7 +126,7 @@
               </div>
 
               <div class="piccol col-md-4">
-                <img id="chickenpizza" src="images/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                <img id="chickenpizza" src="images/fastfood/chickenPizza.jpg" alt="Chicken Pizza"> <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
                 <p>Chicken Pizza</p>
               </div>
             </div>
@@ -140,19 +142,21 @@
 
               <div class="hp1 col-md-7">
                   <h3>Happy Customers</h3>
-                  <h4>George Richard</h4>
-                  <p>Great food! Menu is awesome, the foods are not only great but <br> also in the right price. I highly recommend them :) </p>
+                  <h4><strong>George Richard</strong></h4>
+                  <p><strong>Great food! Menu is awesome, the foods are not only great but <br> also in the right price. I highly recommend them :) </strong></p>
 
-                  <img src="images/customers/p1.png" alt="first lady customer">   <img src="images/customers/p2.png" alt="second guy customer">   <img src="images/customers/p3.png" alt="third guy customer">
+                  <i class="fa fa-chevron-left fa-lg" aria-hidden="true"></i> <img src="images/customers/p1.png" class="guys" alt="first lady customer">
+                  <img src="images/customers/p2.png" class="guys" alt="second guy customer">
+                  <img src="images/customers/p3.png"  alt="third guy customer"> <i class="fa fa-chevron-right fa-lg" aria-hidden="true"></i>
 
               </div>
               <div class="hp2 col-md-5">
-                <div class="aboutmenu"
+                <div class="aboutmenu">
                   <h3>About Menu</h3>
-                  <p>We are a menu little team of 7 members. <br>Donec pede justo,
+                  <p><strong>We are a menu little team of 7 members. <br>Donec pede justo,
                   fringilla vel, aliquet nec, <br>vulputate eget, arcu. In enim justo,
                   rhoncus ut, <br>imperdiet a, venenatis vitae, justo.<br> Nullam dictum
-                  felis eu pede mollis pretium.</p>
+                  felis eu pede mollis pretium.</strong></p>
                 </div>
               </div>
 
@@ -160,7 +164,7 @@
         </div>
         <div class="newsletter row">
           <div class="container">
-            <p>Get our daily food items delivered to your email</p>
+            <h1 class="nlrow">Get our daily food items delivered to your email</h1>
             <form class="form-inline">
               <div class="form-group">
                 <label for="email"></label>
